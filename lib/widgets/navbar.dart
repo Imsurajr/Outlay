@@ -71,7 +71,7 @@ class _NavBarState extends State<NavBar> {
         onPressed: () {},
         child: Text(
           text,
-          style: GoogleFonts.hindSiliguri(color: Colors.black, fontSize: 18),
+          style: GoogleFonts.hindSiliguri(color: Colors.black, fontSize: 20),
         ),
       ),
     );

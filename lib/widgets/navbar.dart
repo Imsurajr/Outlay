@@ -26,7 +26,7 @@ class _NavBarState extends State<NavBar> {
       margin: EdgeInsets.symmetric(
         horizontal: 30,
       ),
-      height: 70,
+      height: MediaQuery.of(context).size.height*0.08,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [

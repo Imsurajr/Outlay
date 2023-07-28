@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:outlay/utils/colors.dart';
@@ -24,7 +23,7 @@ class _NavBarState extends State<NavBar> {
   Widget MobileNavBar() {
     return Container(
       margin: EdgeInsets.symmetric(
-        horizontal: 30,
+        horizontal: 25,
       ),
       height: MediaQuery.of(context).size.height*0.08,
       child: Row(

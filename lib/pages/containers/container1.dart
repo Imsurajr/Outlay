@@ -16,10 +16,12 @@ class _Container1State extends State<Container1> {
     return ScreenTypeLayout.builder(
       mobile: (context) => MobileContainer1(context),
       desktop: (context) => DesktopContainer1(context),
-      // tablet: (context) => TabletContainer1(context),
+      tablet: (context) => TabletContainer1(context),
     );
   }
 
+
+  //============MOBILE=================
   Widget MobileContainer1(context){
     return Container(
       // margin: EdgeInsets.symmetric(horizontal: w! / 7, vertical: 20),
@@ -84,8 +86,10 @@ class _Container1State extends State<Container1> {
     );
   }
 
+  //============DESKTOP=================
   Widget DesktopContainer1(context) {
-    return Container(
+    return
+      Container(
       margin: EdgeInsets.symmetric(horizontal: w! / 7, vertical: 20),
       child: Row(
         children: [
@@ -151,5 +155,76 @@ class _Container1State extends State<Container1> {
         ],
       ),
     );
+  }
+
+  //============TABLET=================
+  Widget TabletContainer1(context){
+    return
+      Container(
+        margin: EdgeInsets.symmetric(horizontal: w! / 7, vertical: 20),
+        child: Row(
+          children: [
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Text(
+                    "Track your \nExpenses to \nSave Money",
+                    style: GoogleFonts.hindSiliguri(
+                      fontSize: w! / 20,
+                      fontWeight: FontWeight.bold,
+                      height: 1.2,
+                    ),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Text(
+                    "Helps you to organize your income and expenses",
+                    style: GoogleFonts.hindSiliguri(
+                      color: Colors.grey.shade400,
+                      fontSize: w! / 80,
+                    ),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Row(
+                    children: [
+                      Container(
+                        height: 45,
+                        child: ElevatedButton.icon(
+                          onPressed: () {},
+                          icon: Icon(Icons.arrow_drop_down_circle_outlined),
+                          label: Text("Try Free Demo"),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Text(
+                        "— Web, iOs and Android",
+                        style: GoogleFonts.hindSiliguri(
+                          color: Colors.grey.shade400,
+                          fontSize: w! / 80,
+                        ),
+                      )
+                    ],
+                  )
+                ],
+              ),
+            ),
+            Expanded(
+              child: Container(
+                height: h! / 2,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                      image: AssetImage(illustrator), fit: BoxFit.contain),
+                ),
+              ),
+            )
+          ],
+        ),
+      );
   }
 }

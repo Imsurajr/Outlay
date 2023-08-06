@@ -22,6 +22,7 @@ class _NavBarState extends State<NavBar> {
     );
   }
 
+//=======================MOBILE=======================
   Widget MobileNavBar(BuildContext context) {
     return Container(
       margin: EdgeInsets.symmetric(
@@ -38,7 +39,7 @@ class _NavBarState extends State<NavBar> {
     );
   }
 
-
+//=======================DESKTOP=======================
   Widget DesktopNavBar(BuildContext context) {
     return Container(
       margin: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
@@ -111,7 +112,7 @@ class _NavBarState extends State<NavBar> {
   Widget navLogo() {
     return Container(
       width: MediaQuery.of(context).size.width*0.1,
-      height: MediaQuery.of(context).size.height*0.1,
+      height: MediaQuery.of(context).size.height*0.2,
       decoration: BoxDecoration(
         image: DecorationImage(
           image: AssetImage(logo),

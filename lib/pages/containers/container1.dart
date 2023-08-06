@@ -52,13 +52,13 @@ class _Container1State extends State<Container1> {
             "Helps you to organize your income and expenses",
             style: GoogleFonts.hindSiliguri(
               color: Colors.grey.shade400,
-              fontSize:  w! / 25,
+              fontSize:  w! / 23,
             ),
           ),
           SizedBox(
             height: 20,
           ),
-          Row(
+          Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
@@ -70,7 +70,7 @@ class _Container1State extends State<Container1> {
                 ),
               ),
               SizedBox(
-                width: 10,
+                height: 10,
               ),
               Text(
                 "— Web, iOs and Android",
@@ -78,7 +78,10 @@ class _Container1State extends State<Container1> {
                   color: Colors.grey.shade400,
                   fontSize: w! / 25,
                 ),
-              )
+              ),
+              SizedBox(
+                height: 10,
+              ),
             ],
           ),
         ],

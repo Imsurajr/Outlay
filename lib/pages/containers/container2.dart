@@ -106,7 +106,7 @@ class _Container2State extends State<Container2> {
                   ),
                 ),
                 Positioned(
-                  top: 190,
+                  top: h!*0.39,
                   left: 43,
                   right: 43,
                   bottom: 0,

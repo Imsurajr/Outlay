@@ -8,8 +8,8 @@ double? w;
 
 const String logo = 'images/logo.png';
 const String illustration1 = 'images/Illustration1.png';
-const String illustration2 = 'images/Illustration1.png';
-const String illustration3 = 'images/Illustration1.png';
+const String illustration2 = 'images/Illustration2.png';
+const String illustration3 = 'images/Illustration3.png';
 const String illustrator = 'images/Illustrator.png';
 const String fb = 'images/fb.png';
 const String google = 'images/google.png';

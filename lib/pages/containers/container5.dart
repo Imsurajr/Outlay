@@ -23,72 +23,12 @@ class _Container5State extends State<Container5> {
 
   //===============MOBILE=================
   Widget MobileContainer5(context) {
-    return Container(
-      // margin: EdgeInsets.symmetric(horizontal: w! / 7, vertical: 20),
-      child: Column(
-        children: [
-          Container(
-            height: w! / 1.1,
-            width: w! / 1.1,
-            decoration: BoxDecoration(
-              image: DecorationImage(
-                  image: AssetImage(illustrator), fit: BoxFit.contain),
-            ),
-          ),
-          SizedBox(
-            height: 20,
-          ),
-          Text(
-            "Track your Expenses to Save Money",
-            textAlign: TextAlign.center,
-            style: GoogleFonts.hindSiliguri(
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
-              height: 1.2,
-            ),
-          ),
-          SizedBox(
-            height: 20,
-          ),
-          Text(
-            "Helps you to organize your income and expenses",
-            style: GoogleFonts.hindSiliguri(
-              color: Colors.grey.shade400,
-              fontSize: w! / 23,
-            ),
-          ),
-          SizedBox(
-            height: 20,
-          ),
-          Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Container(
-                height: 45,
-                child: ElevatedButton.icon(
-                  onPressed: () {},
-                  icon: Icon(Icons.arrow_drop_down_circle_outlined),
-                  label: Text("Try Free Demo"),
-                ),
-              ),
-              SizedBox(
-                height: 10,
-              ),
-              Text(
-                "— Web, iOs and Android",
-                style: GoogleFonts.hindSiliguri(
-                  color: Colors.grey.shade400,
-                  fontSize: w! / 25,
-                ),
-              ),
-              SizedBox(
-                height: 10,
-              ),
-            ],
-          ),
-        ],
-      ),
-    );
+    return MobileCommonContainer(
+        "Use anytime",
+        "Use anytime when you need",
+        "Tellus lacus morbi sagittis lacus in. Amet nisl \nat mauris enim accumsan nisi, tincidunt vel.\n Enim ipsum, amet quis ullamcorper eget ut.",
+        illustration2,
+        );
   }
 
   //===============DESKTOP=================

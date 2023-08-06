@@ -33,7 +33,7 @@ class _Container2State extends State<Container2> {
           Expanded(
             child: Stack(children: [
               Positioned(
-                top: -75,
+                top: -65,
                 left: 45,
                 child: Container(
                   height: h! / 1.3,
@@ -146,7 +146,7 @@ class _Container2State extends State<Container2> {
   //============TABLET=================
   Widget TabletContainer2(context) {
     return Container(
-      height: 700,
+      height: 400,
       width: double.infinity,
       decoration: BoxDecoration(
         color: AppColors.kColorPrimary,
@@ -157,7 +157,7 @@ class _Container2State extends State<Container2> {
             child: Stack(
               children: [
                 Positioned(
-                  top: 150,
+                  top: h!*0.10,
                   left: 23,
                   right: 23,
                   bottom: 0,

@@ -28,8 +28,8 @@ class _Container1State extends State<Container1> {
       child: Column(
         children: [
           Container(
-            height: w! / 1.2,
-            width: w! / 1.2,
+            height: w! / 1.1,
+            width: w! / 1.1,
             decoration: BoxDecoration(
               image: DecorationImage(
                   image: AssetImage(illustrator), fit: BoxFit.contain),
@@ -166,12 +166,13 @@ class _Container1State extends State<Container1> {
           children: [
             Expanded(
               child: Column(
+                mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Text(
                     "Track your \nExpenses to \nSave Money",
                     style: GoogleFonts.hindSiliguri(
-                      fontSize: w! / 20,
+                      fontSize: w! / 18,
                       fontWeight: FontWeight.bold,
                       height: 1.2,
                     ),
@@ -183,31 +184,37 @@ class _Container1State extends State<Container1> {
                     "Helps you to organize your income and expenses",
                     style: GoogleFonts.hindSiliguri(
                       color: Colors.grey.shade400,
-                      fontSize: w! / 80,
+                      fontSize: w! / 40,
                     ),
                   ),
                   SizedBox(
                     height: 20,
                   ),
-                  Row(
+                  Column(
                     children: [
-                      Container(
-                        height: 45,
-                        child: ElevatedButton.icon(
-                          onPressed: () {},
-                          icon: Icon(Icons.arrow_drop_down_circle_outlined),
-                          label: Text("Try Free Demo"),
-                        ),
+                      Row(
+                        children: [
+                          Container(
+                            height: 45,
+                            child: ElevatedButton.icon(
+                              onPressed: () {},
+                              icon: Icon(Icons.arrow_drop_down_circle_outlined),
+                              label: Text("Try Free Demo"),
+                            ),
+                          ),
+                        ],
                       ),
-                      SizedBox(
-                        width: 10,
-                      ),
-                      Text(
-                        "— Web, iOs and Android",
-                        style: GoogleFonts.hindSiliguri(
-                          color: Colors.grey.shade400,
-                          fontSize: w! / 80,
-                        ),
+                      SizedBox(height: 10,),
+                      Row(
+                        children: [
+                          Text(
+                            "— Web, iOs and Android",
+                            style: GoogleFonts.hindSiliguri(
+                              color: Colors.grey.shade400,
+                              fontSize: w! / 40,
+                            ),
+                          ),
+                        ],
                       )
                     ],
                   )
@@ -217,6 +224,7 @@ class _Container1State extends State<Container1> {
             Expanded(
               child: Container(
                 height: h! / 2,
+                width: h! / 2,
                 decoration: BoxDecoration(
                   image: DecorationImage(
                       image: AssetImage(illustrator), fit: BoxFit.contain),

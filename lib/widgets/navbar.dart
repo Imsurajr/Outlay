@@ -41,7 +41,7 @@ class _NavBarState extends State<NavBar> {
 
   Widget DesktopNavBar(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+      margin: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [

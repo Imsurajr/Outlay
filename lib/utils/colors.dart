@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
 
 class AppColors{
-  static Color kColorPrimary = Colors.purple;
-}
+  static Color kColorPrimary = Color(0xff573180);
+  }

@@ -13,6 +13,8 @@ Welcome to *Outlay*! This is a responsive Flutter frontend project designed to w
 
 - **Modern UI**: The user interface is designed using Flutter's widgets to create a visually appealing and intuitive experience.
 
+- **Clean Code**: Easily understandable codebase.
+
 ## Screenshots
 
 Include screenshots of your project on different devices to showcase its responsiveness.

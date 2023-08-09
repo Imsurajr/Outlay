@@ -20,9 +20,11 @@ Welcome to *Outlay*! This is a responsive Flutter frontend project designed to w
 Include screenshots of your project on different devices to showcase its responsiveness.
 
 Mobile            
+
 ![Screenshot 2023-08-09 191415](https://github.com/Imsurajr/outlay/assets/92632170/1bc9b1dd-9744-4baa-a5b8-6182b5afe6d9)
 
 Tablet           
+
 ![Screenshot 2023-08-09 191356](https://github.com/Imsurajr/outlay/assets/92632170/930889d1-fab7-4fa6-9b09-dfc184f2a6f3)
 
 Desktop

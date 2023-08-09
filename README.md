@@ -26,6 +26,7 @@ Tablet
 ![Screenshot 2023-08-09 191356](https://github.com/Imsurajr/outlay/assets/92632170/930889d1-fab7-4fa6-9b09-dfc184f2a6f3)
 
 Desktop
+
 ![Screenshot 2023-08-09 191302](https://github.com/Imsurajr/outlay/assets/92632170/eb557901-d167-42a3-90c7-d542d86a41ae)
 
 

@@ -5,7 +5,7 @@
 
 ## Introduction
 
-Welcome to *Outlay*! This is a responsive Flutter frontend project designed to work seamlessly across mobile, tablet, and desktop devices. It provides a user-friendly interface.
+Welcome to *Outlay*! This is a responsive Flutter frontend project designed to work seamlessly across mobile, tablet, and desktop devices. It provides a user-friendly experience and interface.
 
 ## Features
 
